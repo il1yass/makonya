@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+
+.main {
+    position: relative;
+    height: 802px;
+}
+
+
+
+.logo a{
+    font-family: Poppins, sans-serif;
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    padding-top: 40px;
+    margin-left: 50px;
+    cursor: pointer;
+    float: left;
+}
+
+.login {
+    z-index: 11;
+    position: relative;
+    display: grid;
+    justify-content: center;
+
+}
+
+.login_title {
+    margin-top: 40px;
+    text-align: center;
+    color: #222831;
+    font-family: Poppins, sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.login_form {
+    margin-top: 30px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 33px 0px rgba(0, 0, 0, 0.25);
+    width: 734px;
+    height: 100%;
+
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 2px solid #B7B7B7;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 2px solid #B7B7B7;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+}
+
+
+.p_register {
+    color: #222831;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.rest {
+    margin-top: 45px;
+    margin-right: 48px;
+    margin-left: 48px;
+}
+
+.password {
+    margin-right: 48px;
+    margin-left: 48px;
+}
+
+
+.submit {
+    text-align: center;
+}
+
+input[value=Login], select {
+    border-radius: 8px;
+    width: 251px;
+    height: 52px;
+    background-color: rgba(1, 106, 112, 1);
+    padding: 11px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+
+}
+
+input[value=Login]:hover {
+    border: 2px solid #016A70;
+    background: white;
+    color: #016A70;
+}
+
+
+.reset {
+    margin-top: 10px;
+}
+
+.reset a {
+    margin-left: 48px;
+    color: #393E46;
+    color: rgba(1, 106, 112, 1);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.reset a:hover {
+    color: #1da460;
+}
+
+
+#item_0 {
+    margin: 0 auto;
+    width: 23px;
+    color: rgba(57, 62, 70, 1);
+    color: #393E46;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.sign_up {
+    margin-top: 20px;
+    margin-left: 145px;
+    margin-right: 145px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    cursor: pointer;
+}
+
+.have_acc {
+    padding-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #393E46;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.registr {
+    color: #016A70;
+    text-decoration: none;
+}
+
+.registr:hover {
+    color: #1da460;
+}
+
+
+.have_account {
+    color: #393E46;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form-error {
+    font-size: 15px;
+    margin-left: 48px;
+    color: #bb1e1e;
+}
+
+.g-recaptcha {
+    margin: 10px 215px;
+}

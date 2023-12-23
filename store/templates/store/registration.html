@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/registration.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Registration</title>
+</head>
+<body>
+<div class="main">
+    <div class="logo"><a href="http://127.0.0.1:8000">Store</a></div>
+    <div class="registration">
+        <p class="registration_title">Registration</p>
+        <form method="post" class="registration_form">
+            {% csrf_token %}
+            <div class="inner_registration_form">
+                <div class="first_name">
+                    <p class="p_register">First Name</p>
+                    <label for="{{ form.username.id_for_label }}">{{ form.first_name }}</label>
+                </div>
+                <div class="last_name">
+                    <p class="p_register">Last Name</p>
+                    <label for="{{ form.last_name.id_for_label }}">{{ form.last_name }}</label>
+                </div>
+            </div>
+            <div class="rest">
+                <p class="p_register">Email</p>
+                <label for="{{ form.email.id_for_label }}">{{ form.email }}</label>
+            </div>
+            <div class="login">
+                <p class="p_register">Username</p>
+                <label for="{{ form.username.id_for_label }}">{{ form.username }}</label>
+            </div>
+            <div class="password">
+                <p class="p_register">Password</p>
+                <label for="{{ form.password1.id_for_label }}">{{ form.password1 }}</label>
+            </div>
+            <div class="Re_password">
+                <p class="p_register">Re-enter Password</p>
+                <label for="{{ form.password2.id_for_label }}">{{ form.password2 }}</label>
+            </div>
+            <div class="check">
+                <label for="{{ form.is_agree.id_for_label }}">{{ form.is_agree }}</label>
+                <label class="have_read" for="custome-checkbox">I’ve read and agree with Terms of Service and our
+                    Privacy Policy</label>
+            </div>
+            <div class="form_errors">{{ form.errors }}</div>
+            <div class="submit">
+                <input type="submit" value="Register">
+            </div>
+            <div><p id="item_0" class="text-object item">OR</p></div>
+            <div class="sign_up">
+            </div>
+            <div class="have_acc">
+                <p class="have_account">Already have’ an account? <a class="Signin" href="http://127.0.0.1:8000/login">Sign
+                    In</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+altgraph @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot7/ActiveBuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-133.100.1.1/altgraph-0.17.2-py2.py3-none-any.whl
+asgiref==3.7.2
+axios==0.4.0
+captcha==0.5.0
+certifi==2023.11.17
+charset-normalizer==3.3.2
+click==8.1.7
+distlib==0.3.8
+Django==4.2.6
+django-debug-toolbar==4.2.0
+django-ranged-response==0.2.0
+django-simple-captcha==0.5.20
+filelock==3.13.1
+future @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot7/ActiveBuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-133.100.1.1/future-0.18.2-py3-none-any.whl
+idna==3.4
+lxml==4.9.3
+macholib @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot7/ActiveBuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-133.100.1.1/macholib-1.15.2-py2.py3-none-any.whl
+markdown-it-py==3.0.0
+mdurl==0.1.2
+Pillow==10.1.0
+platformdirs==4.1.0
+Pygments==2.17.1
+requests==2.31.0
+rich==13.7.0
+six @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot7/ActiveBuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-133.100.1.1/six-1.15.0-py2.py3-none-any.whl
+sqlparse==0.4.4
+typing_extensions==4.8.0
+urllib3==2.1.0
+virtualenv==20.25.0
